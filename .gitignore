@@ -10,7 +10,8 @@ Thumbs.db*
 HELP.md
 dist
 doc
-
+node_modules
+dist
 # Logs
 logs
 *.log

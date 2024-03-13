@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0"
+  },
+  "name": "babel_homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
