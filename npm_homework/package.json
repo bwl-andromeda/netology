@@ -1,0 +1,22 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwl-andromeda/netology.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "bwl_andromeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwl-andromeda/netology/issues"
+  },
+  "homepage": "https://github.com/bwl-andromeda/netology#readme"
+}
