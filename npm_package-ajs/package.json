@@ -1,0 +1,15 @@
+{
+  "name": "npm_package-ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bwl-andromeda/ajs": "^1.0.0"
+  }
+}
