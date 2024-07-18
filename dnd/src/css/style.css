@@ -1,0 +1,122 @@
+.task {
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 1%;
+  background-color: rgb(252, 255, 248);
+  border: 1px solid #500000;
+  margin: 3%;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 30px;
+  padding: 1%;
+  color: rgb(218, 1, 1);
+  margin: 2%;
+  border-radius: 5px;
+}
+
+.description {
+  flex-grow: 1;
+  padding: 1%;
+  height: 70%;
+  min-height: 300px;
+  /* border: 1px solid #000000; */
+  /* background-color: rgb(234, 255, 235); */
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.addAnotherCard {
+  padding: 1%;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.addAnotherCard.delete {
+  display: none;
+}
+
+.addAnotherCard:not(.delete) {
+  display: block;
+}
+
+.addButtonCard {
+  border-radius: 5px;
+  margin: 2%;
+  width: 100px;
+  height: 30px;
+  background-color: aqua;
+}
+
+.addButtonCard.input {
+  display: block;
+}
+
+.addButtonCard:not(.input) {
+  display: none;
+}
+
+.enter {
+  font-size: 15px;
+  resize: vertical;
+  margin: 2%;
+  border-radius: 5px;
+  width: 94%;
+  min-height: 50px;
+  max-height: 200px;
+}
+
+.descriptionText {
+  min-height: 50px;
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.drag {
+  cursor: grabbing;
+  z-index: 999;
+  pointer-events: none;
+  background: rgb(153, 255, 132);
+}
+
+.descriptionText:hover .deleteCard {
+  opacity: 1; /* Показываем кнопку */
+}
+
+.deleteCard {
+  font-size: 15px;
+  position: absolute;
+  color: red;
+  top: 5px;
+  right: 5px;
+  width: 27px;
+  height: 27px;
+  opacity: 0;
+  transition: opacity 0.6s;
+  background-color: rgb(255, 255, 208);
+  border-radius: 5px;
+}
+
+.deleteCard:hover {
+  background-color: yellow;
+  box-shadow: 5px 5px 5px rgb(78, 78, 78);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.descriptionText:hover::before {
+  opacity: 1;
+}

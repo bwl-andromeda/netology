@@ -1,0 +1,30 @@
+.convector {
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.hex {
+    position: relative;
+    top: 300px;
+    left: 282px;
+    width: 130px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.rgb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 301px;
+    left: 281px;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 136px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}

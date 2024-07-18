@@ -1,0 +1,34 @@
+.film {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    min-width: 400px;
+    max-width: 600px;
+    width: 100%;
+
+    height: 220px;
+
+    margin-top: 50px;
+
+    background-color: #ffffff;
+
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 #80808070;
+}
+
+.film-content {
+    position: relative;
+    width: 100%;
+    margin: 25px 25px 0;
+}
+
+.film-content>h3 {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

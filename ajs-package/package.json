@@ -1,0 +1,30 @@
+{
+  "name": "@bwl-andromeda/ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwl-andromeda/ajs-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwl-andromeda/ajs-package/issues"
+  },
+  "homepage": "https://github.com/bwl-andromeda/ajs-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

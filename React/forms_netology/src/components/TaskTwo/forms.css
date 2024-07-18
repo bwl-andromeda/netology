@@ -1,0 +1,118 @@
+.text-list {
+    width: 800px;
+    min-height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* первая часть таблицы */
+.form-tracker {
+    position: relative;
+    width: 800px;
+    height: 150px;
+    /* border: 1px solid rgb(255, 123, 123); */
+}
+
+.date-text {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    left: 55px;
+    top: 20px;
+    position: absolute;
+}
+
+.date {
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.km-text {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    left: 350px;
+    top: 20px;
+    position: absolute;
+}
+
+.km {
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}
+
+.but {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+    padding: 0;
+    top: 60px;
+    left: 630px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.but:hover {
+    border: 1px solid rgb(255, 0, 25);
+    background-color: rgb(255, 219, 222);
+}
+
+/* вторая половинка таблицы */
+.table-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    left: 35px;
+}
+
+.date-text-table, .km-text-table, .action-table {
+    width: 200px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+tr {
+    display: table-row;
+}
+
+td {
+    padding: 10px;
+    padding-left: 40px;
+    /* border: 1px solid rgb(155, 137, 255); */
+}
+
+td:first-child {
+    width: 300px; /* Задаем фиксированную ширину для первого столбца */
+}
+
+.list-button {
+    cursor: pointer;
+    color: red;
+    position: relative;
+    left: 100px;
+}

@@ -1,0 +1,13 @@
+image: Ubuntu2204  # образ для сборки
+
+stack: node 20  # окружение
+
+branches:
+  only:
+    - master  # ветка git
+    - main
+
+cache: node_modules  # кеширование
+
+install:
+  - yarn  # команда установки зависимостей
